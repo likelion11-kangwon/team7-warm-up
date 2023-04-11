@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+ 
+/*포인트 컬러 추가color : #23007a*/
+html , body {
+    font-family: 'Pretendard-Regular';
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f3f3f3;
+    background-color: #161616;
+    padding: 5% 10%;
+    width: 1980px;
+    height: 1080px;
+    
+    
+    
+  }
+.imagecontainer {
+  
+  margin: 5%;
+  height: 40%;
+  width: 40%;
+  float: left;
+
+}
+
+
+
+
+.alltxtdiv .main .Aim .me {
+  margin : 5%;
+} 
+
+  
+  
+
+.page{
+    width : auto;
+    height : auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (min-width: 1440px)  {
+  html,body {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  html,body {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html,body {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  html,body {
+    width: 100%;
+  }
+}
+
+
