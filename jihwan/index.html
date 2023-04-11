@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Gamja+Flower&family=Gothic+A1:wght@700&family=Oswald:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>홍지환 자기소개 페이지</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-span-wrap">
+                    <span class="nav-span-selected">Home</span>
+                    <span>About</span>
+                    <span>Stacks</span>
+                    <span>Contact</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="sidebar">
+            <span id="leftbtn" class="material-symbols-outlined"> arrow_back_ios </span>
+        </div>
+        <div class="container" id="main">
+            <div class="nav-span-selected animate__fadeIn" id="Home">
+                <div class="profile-img-wrap">
+                    <img class="profile-img" src="./img/pim.png">
+                </div>
+                <div class="description-wrap">
+                    <div class="name">
+                        <span>홍지환</span>
+                        <hr>
+                    </div>
+                    <div class="home-info">
+                        <p>전공: 컴퓨터공학과</p>
+                        <p>MBTI: ISTJ</p>
+                        <p>좋아하는 것: 돈</p>
+                        <p>장래희망: 돈 많은 백수</p>
+                    </div>
+                </div>
+            </div>
+            <div id="About" class="animate__fadeIn">
+                <div class="about-img-wrap">
+                    <img class="about-img" src="./img/glap.png">
+                </div>
+                <div class="info-wrap">
+                    <p>프로그래밍을 취미로 하고 있는<br>강원대학교 컴퓨터공학과 23학번 새내기 홍지환 입니다.</p>
+                </div>
+            </div>
+            <div id="Stacks" class="animate__fadeIn">
+                <div class="main_stacks">
+                    <p class="p-title">주로 쓰는 언어</p>
+                    <div class="img-wrap">
+                        <div class="card-wrap">
+                            <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8"
+                                target="_blank"> <img src="./img/js.svg"></a>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="https://ko.wikipedia.org/wiki/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8"
+                                target="_blank"><img src="./img/ts.svg"></a>
+                            <p>Typescript</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="learn_stacks">
+                    <p class="p-title">배우고 있는 언어</p>
+                    <div class="img-wrap">
+                        <div class="card-wrap">
+                            <a href="https://ko.wikipedia.org/wiki/C_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)"
+                                target="_blank"><img src="./img/c.svg"></a>
+                                <p>C</p>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="https://ko.wikipedia.org/wiki/C%2B%2B" target="_blank"><img
+                                    src="./img/cpp.svg"></a>
+                                <p>C++</p>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)"
+                                target="_blank"><img src="./img/java.svg"></a>
+                                <p>Java</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="wanna_stacks">
+                    <p class="p-title">배우고 싶은 것</p>
+                    <div class="img-wrap">
+                        <div class="card-wrap">
+                            <a href="https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC"
+                                target="_blank"><img src="./img/spring.svg"></a>
+                                <p>Spring</p>
+                        </div>
+                        <div class="card-wrap">
+                            <a href="https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC" target="_blank"><img
+                                    src="./img/python.svg"></a>
+                                <p>Python</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Contact" class="animate__fadeIn">
+                <div class="github">
+                    <a href="https://github.com/r-u-sure" target="_blank"><img src="./img/github.svg"></a>
+                    <p class="site">Github</p>
+                </div>
+                <div class="instagram">
+                    <a href="https://www.instagram.com/jihwann_n/" target="_blankkkj"><img
+                            src="./img/instagram.svg"></a>
+                    <p class="site">Instagram</p>
+                </div>
+                <div class="discord">
+                    <img id="discordImg" src="./img/discord.svg">
+                    <p class="site p-discord">Discord</p>
+                    <p class="site none p-discord animate__fadeInUp">@mymind#9344</p>
+                </div>
+                <div class="email">
+                    <img id="emailImg" src="./img/email.svg">
+                    <p class="site p-email">Email</p>
+                    <p class="site none p-email animate__fadeInUp">jihwan@kangwon.ac.kr</p>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <span id="rightbtn" class="material-symbols-outlined animate__pulse"> arrow_forward_ios </span>
+        </div>
+    </main>
+</body>
+
+</html>
